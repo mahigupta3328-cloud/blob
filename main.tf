@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "star" {
-  name     = "star45"
-  location = "west us"
+  name     = "moon"
+  location = "east us"
 }
 
 resource "azurerm_storage_account" "misterious213" {
@@ -15,4 +15,5 @@ resource "azurerm_storage_container" "tuesday" {
   name                  = "tuesday09"
   storage_account_name = "misterious213"
   container_access_type = "private"
-}
+
+
