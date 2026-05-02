@@ -15,7 +15,5 @@ resource "azurerm_storage_container" "tuesday" {
   name                  = "tuesday09"
   storage_account_name = "misterious213"
   container_access_type = "private"
-} 
-resource{
 
-}
+
